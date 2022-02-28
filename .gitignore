@@ -1,10 +1,30 @@
-# Project exclude paths
-.gradle
-.idea
-
-application-real-oauth.properties
-
+### Java template
 *.class
 
-build
+# Properties
+application-oauth.properties
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
 out
+gen
+build
+rebel.xml
+
+# Compliled files
+/target/
+**/target
+
+/example/
+
+# Gradle
+.gradle
+/build/
+.gradletasknamecache
